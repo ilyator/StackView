@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">StackView</string>
+    <string name="swipe_down">Swipe down for dislike</string>
+    <string name="swipe_up">Swipe up for like</string>
+    <string name="no_more_cards">No more cards available</string>
+</resources>

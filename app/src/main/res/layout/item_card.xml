@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_dislike"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/red_dislike"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="@string/swipe_down"
+        android:textSize="30dp"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/tv_like"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/green_like"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="@string/swipe_up"
+        android:textSize="30dp"
+        android:layout_alignParentBottom="true" />
+
+    <ImageView
+        android:id="@+id/iv_photo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+
+</RelativeLayout>
